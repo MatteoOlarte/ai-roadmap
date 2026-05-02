@@ -1,0 +1,14 @@
+{
+	"autopep8.args": ["--max-line-length", "999", "--ignore", "E501"],
+	"editor.codeActionsOnSave": {
+		"notebook.source.organizeImports": "explicit",
+		"source.organizeImports": "explicit",
+		"source.unusedImports": "never"
+	},
+	"editor.defaultFormatter": "ms-python.autopep8",
+	"editor.formatOnSave": true,
+	"files.autoSave": "afterDelay",
+	"isort.args": ["--python-version", "313", "--profile", "black", "--line-length", "999"],
+	"cSpell.words": ["bmatrix", "cmap", "imread", "imshow", "nbytes", "ndarray", "Thresholding", "TOZERO"],
+	"python.analysis.typeCheckingMode": "standard"
+}
